@@ -1,7 +1,7 @@
 /* Фон сайта */
 body{
-    background-color: black;
-    background-image: none;
+  background-color: black;
+  background-image: none;
 }
 
 
@@ -9,41 +9,48 @@ body{
 
 /* Центральная область */
 .l-page{
-    background-color: black;
-    border-left: 1px solid #2b2b2b;
-    border-right: 1px solid #2b2b2b;
+  background-color: black;
+  border-left: 1px solid #2b2b2b;
+  border-right: 1px solid #2b2b2b;
 }
 /* Центральная область */
 
 /* Разное */
 .subheadline{
-    background-color: rgb(15, 15, 15);
+  background-color: rgb(15, 15, 15);
   color:white;
 }
 /* Разное */
 
 /* Поиск */
 .l-top_menu-v2 .global-search input,
-.l-top_menu-v2 .global-search .search-results .nothing_found, .l-top_menu-v2 .global-search .search-results .search-mode ,
-.b-db_entry-variant-list_item > .info .line .key {
-    color: #fff;}
+.l-top_menu-v2 .global-search .search-results .nothing_found, 
+.l-top_menu-v2 .global-search .search-results .search-mode ,
+.b-db_entry-variant-list_item > .info .line .key 
+{
+  color: #fff;
+}
 
-.l-top_menu-v2 .global-search input{background-color: #000; border: 1px solid #2b2b2b;}
+.l-top_menu-v2 .global-search input{
+  background-color: #000; 
+  border: 1px solid #2b2b2b;
+}
 /* Поиск */
 /* шапка сайта */
 
 .l-top_menu-v2 {
-  background: black;}
+  background: black;
+}
 /* AUTO=sticky_menu */ 
 @media screen and (min-width: 1025px) { 
-    .l-top_menu-v2 { 
-        position: sticky; 
-        top: 0; 
-    } 
-    .l-top_menu-v2 .active .submenu { 
-        max-height: calc(100vh - var(--top-menu-height)); 
-        overflow-y: auto; 
-    } 
+  .l-top_menu-v2 { 
+    position: sticky; 
+    top: 0; 
+  } 
+  .l-top_menu-v2 .active .submenu { 
+    max-height: calc(100vh - var(--top-menu-height)); 
+    overflow-y: auto; 
+  } 
 }
 /* шапка сайта */
 
@@ -52,13 +59,15 @@ body{
 .b-news_wall-topic a .title,body,
 .b-catalog_entry .cover .misc span ,
 .b-catalog_entry .cover .title {
-    color: white;
-  }
+  color: white;
+}
 /* главная страница */
 
 
 /* профиль */
-
+.b-stats_bar .stat_names .stat_name a{
+  color:#fff;
+}
 /* профиль */
 
 
@@ -68,19 +77,19 @@ body{
 
 /* Страница с Аниме */
 a img .studio-logo{
-    background-color: #444444;
+  background-color: #444444;
 }
 .b-tag ,
 .b-link,
 .b-entry-info .line .value,
 header.head h1{
-    color:#fff;
+  color:#fff;
 }
 .p-animes-show .studio-logo, .p-mangas-show .studio-logo, .p-ranobe-show .studio-logo {
 
-    background-color: #fff;
-  }
-  .b-db_entry  .c-about .additional-links .line-container  .link, .b-db_entry  .c-about .additional-links .line-container  a {
-    color: white;
-  }
+  background-color: #fff;
+}
+.b-db_entry  .c-about .additional-links .line-container  .link, .b-db_entry  .c-about .additional-links .line-container  a {
+  color: white;
+}
 /* Страница с Аниме */
