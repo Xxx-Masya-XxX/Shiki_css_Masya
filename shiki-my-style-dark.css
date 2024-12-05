@@ -65,8 +65,31 @@ body{
 
 
 /* профиль */
-.b-stats_bar .stat_names .stat_name a{
-  color:#fff;
+.b-stats_bar .stat_names .stat_name a { /* список аниме */
+  color: #fff;
+
+}
+.b-stats_bar a.title { /* ссылки под списком аниме */
+  color: #fff;
+  cursor: pointer;
+}
+header.head .notice { /* текст под никнеймом БИО */
+  color: #555;
+}
+.b-stats_bar .title { /* время за аниме */
+  color: #aaa;
+}
+.p-profiles-show .profile-content .activity .title { /* Активность на сайте */
+  color: #eee;
+}
+.headline > a, .midheadline > a, .subheadline > a { /* текст заголовков */
+
+  color: #fff;
+
+}
+
+.p-profiles .profile-head .c-history .entry{/* история */
+  display:none;
 }
 /* профиль */
 
