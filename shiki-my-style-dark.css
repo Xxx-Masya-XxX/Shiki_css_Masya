@@ -31,6 +31,12 @@ body{
   color: #fff;
 }
 
+@media screen and (max-width: 1023px) {
+.l-top_menu-v2 .global-search .search-results{
+  background-color: #4c4f54;
+}
+}
+
 .l-top_menu-v2 .global-search input{
   background-color: #000; 
   border: 1px solid #2b2b2b;
@@ -91,7 +97,21 @@ header.head .notice { /* текст под никнеймом БИО */
 .p-profiles .profile-head .c-history {/* история */
   display:none;
 }
+
 /* профиль */
+/* Список аниме */
+.p-user_rates-index .list-groups .summary.lines.list {
+  margin: 5px 0 30px;
+  color: #fff;
+  background-color: #9d9;
+  border-radius: 5px;
+  padding: 0 5px;
+}
+.p-user_rates-index .list-lines tr td .episodes_total {
+  color: #999;
+  font-size: 11px;
+}
+/* Список аниме */
 
 
 /* обсуждения топики */
@@ -116,3 +136,22 @@ header.head h1{
   color: white;
 }
 /* Страница с Аниме */
+
+
+
+
+/* tooltip */
+.b-catalog_entry-tooltip .inner .line .key {
+  color: #fff;
+  font-weight: bold;
+  display: inline;
+}
+.tooltip-inner {
+  background: #F7F7F7;
+  background: #4c4f54;
+  border: 1px solid #999999;
+  color: #333333;
+}
+.b-catalog_entry-tooltip .inner a.name {
+  color: #fff;
+}

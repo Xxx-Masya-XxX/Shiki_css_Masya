@@ -1,3 +1,50 @@
 <body>
     <H1>Hello</H1>
+    <a class="kiki" href="#">asdad</a>
+    <div class="summary list lines">
+        Сериалы:&nbsp;
+        <span class="stat-value">53</span>
+        Фильмы:&nbsp;
+        <span class="stat-value">37</span>
+        OVA:&nbsp;
+        <span class="stat-value">31</span>
+        Спешлы:&nbsp;
+        <span class="stat-value">15</span>
+        Эпизоды:&nbsp;
+        <span class="stat-value">16</span>
+        Дни:&nbsp;
+        <span class="stat-value">0.46</span>
+    </div>
+    <style>
+        .summary .stat-value {
+            font-size: 0; /* Скрываем текст, делая шрифт невидимым */
+            position: relative; /* Устанавливаем относительное позиционирование для псевдоэлементов */
+        }
+        .summary .stat-value::before {
+            font-size: 16px; /* Устанавливаем нормальный размер текста для псевдоэлемента */
+            content: attr(data-label) attr(data-value); /* Динамический текст, если атрибуты используются */
+            border: 1px solid black; /* Рамка вокруг псевдоэлемента */
+            padding: 5px; /* Внутренние отступы */
+            display: inline-block; /* Блочно-строчное отображение */
+        }
+        /* Жёстко задаём текст для конкретных элементов */
+        .summary .stat-value:nth-of-type(1)::before {
+            content: "Сериалы: 53";
+        }
+        .summary .stat-value:nth-of-type(2)::before {
+            content: "Фильмы: 37";
+        }
+        .summary .stat-value:nth-of-type(3)::before {
+            content: "OVA: 31";
+        }
+        .summary .stat-value:nth-of-type(4)::before {
+            content: "Спешлы: 15";
+        }
+        .summary .stat-value:nth-of-type(5)::before {
+            content: "Эпизоды: 16";
+        }
+        .summary .stat-value:nth-of-type(6)::before {
+            content: "Дни: 0.46";
+        }
+    </style>
 </body>
