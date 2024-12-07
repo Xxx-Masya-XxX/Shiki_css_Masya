@@ -88,7 +88,7 @@ header.head .notice { /* текст под никнеймом БИО */
 
 }
 
-.p-profiles .profile-head .c-history .entry{/* история */
+.p-profiles .profile-head .c-history {/* история */
   display:none;
 }
 /* профиль */
