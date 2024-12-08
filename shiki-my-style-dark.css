@@ -11,59 +11,6 @@
   border-right: 1px solid #2b2b2b;
 }
 
-/* AUTO=sticky_menu */ 
-@media screen and (min-width: 1025px) { 
-  .l-top_menu-v2{ 
-    position: sticky; 
-    top: 0; 
-  } 
-  .l-top_menu-v2 .active .submenu { 
-    max-height: calc(100vh - var(--top-menu-height)); 
-    overflow-y: auto; 
-  } 
-}
-
-/* Поиск */
-@media screen and (max-width: 1023px) {
-  .l-top_menu-v2 .global-search .search-results{
-    background-color: #4c4f54;
-  }
-}
-.l-top_menu-v2 .global-search .search-results {
-  background-color: #4c4f54;
-}
-/* тултип */
-
-/* Основной цвет текста на сайте */
-
-/* дополнительный цвет текста на сайте */
-
-/* особый цвет текста на сайте */
-.p-user_rates-index .list-lines tr .name a {
-  color:#fff;
-}
-
-/* разное */
-.subheadline {
-  color: white;
-  background-image: url("https://a.d-cd.net/6UAAAgJSSOA-1920.jpg");
-}
-/* шапка сайта */
-
-.l-top_menu-v2 {
-  background: black;
-}
-/* AUTO=sticky_menu */ 
-@media screen and (min-width: 1025px) { 
-  .l-top_menu-v2 { 
-    position: sticky; 
-    top: 0; 
-  } 
-  .l-top_menu-v2 .active .submenu { 
-    max-height: calc(100vh - var(--top-menu-height)); 
-    overflow-y: auto; 
-  } 
-}
 .CodeMirror-scroll, .CodeMirror-sizer, .CodeMirror-gutter, .CodeMirror-gutters, .CodeMirror-linenumber {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
