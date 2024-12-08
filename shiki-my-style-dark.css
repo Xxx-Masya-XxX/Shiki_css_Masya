@@ -1,8 +1,5 @@
 /* фон сайта */
-/* AUTO=body_background */ 
-body { 
-  background: url(https://a.d-cd.net/6UAAAgJSSOA-1920.jpg) no-repeat; 
-}
+/* AUTO=body_background */ body {background: url(https://a.d-cd.net/6UAAAgJSSOA-1920.jpg) no-repeat; }
 /* центральная область */
 .l-page{
   background-color: rgba(0, 0, 0, 0.356);
