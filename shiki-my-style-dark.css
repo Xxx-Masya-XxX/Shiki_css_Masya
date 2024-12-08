@@ -156,3 +156,30 @@ header.head h1{
 .b-catalog_entry-tooltip .inner a.name {
   color: #fff;
 }
+.l-top_menu-v2 .global-search .search-results {
+  background-color: #4c4f54;}
+
+.p-user_rates-index .list-groups .summary.lines.list {
+  margin: 5px 0 30px;
+  color: #fff;
+  background-color: #9d9;
+  border-radius: 5px;
+  padding: 0 5px;
+}
+
+.p-user_rates-index .list-lines tr td .episodes_total {
+  color: #999;
+  font-size: 11px;
+}
+
+.p-user_rates-index .list-lines tr .name a {
+  color: #fff;
+}
+.p-user_rates-index .list-lines tr.editable:hover  .p-user_rates-index .list-lines tr .name a {
+  color: orange;
+}
+@media screen and (max-width: 1023px) {
+.l-top_menu-v2 .global-search .search-results{
+  background-color: #4c4f54;
+}
+}
