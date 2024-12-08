@@ -17,7 +17,7 @@ body{
 
 /* Разное */
 .subheadline {
-  background-color: rgb(15, 15, 15);
+  /* background-color: rgb(15, 15, 15); */
   color: white;
   background-image: url("https://avatars.mds.yandex.net/i?id=beadf3551f69c34ca3fc9cb45a784313_l-5313814-images-thumbs&n=13");
 }
