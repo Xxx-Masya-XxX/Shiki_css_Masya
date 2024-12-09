@@ -1,1 +1,30 @@
+@import url("https://css-club.web.app/css/compact_news--grid.css");
+@import url("https://css-club.web.app/css/CodeMirror_dark.css");
+@import url("https://raw.githubusercontent.com/kaurkaur/Shikimori/master/CSS/CircleAnimeMangaBar.css");
+/* AUTO=body_background */ body { background: url(/assets/background/greyfloral.png) repeat; }
+html[data-color-mode="light"] {
+    --icon-color: #444;
+    --link-color: #ffffff;
+    --link-hover-color: #027add;
+    --link-active-color: #ff0202;
+    --link-border-color: rgba(#ffffff, 0.3);
+    --link-border-hover-color: rgba(#027add, 0.3);
+    --link-border-active-color: rgba(#ff0202, 0.3);
+    --headline-color: rgb(255, 255, 255);
+    --headline-border-color: #027add;
+    --headline-arrow-color: #999;
+    --headline-background-color: #999;
+    --background-color-center: #242424;
+}
+.l-page {
+  background: var(--background-color-center);
+}
+body { 
+	background: url(https://wallpapers-clan.com/wp-content/uploads/2024/08/marvel-miles-morales-dark-gif-desktop-wallpaper-preview.gif) repeat fixed; 
+	
+  background-size: cover;
+}
 /* темный стиль */
+.b-input.boolean label{
+
+}
